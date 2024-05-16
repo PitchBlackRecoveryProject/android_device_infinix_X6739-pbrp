@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=Infinix-X6739
+DEVICE=X6739
 VENDOR=infinix
 
 # Load extract_utils and do some sanity checks
@@ -59,3 +59,4 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
 "${MY_DIR}/setup-makefiles.sh"
+
