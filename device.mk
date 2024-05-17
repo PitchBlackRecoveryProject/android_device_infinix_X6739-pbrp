@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
     update_engine_sideload
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 33
+PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
