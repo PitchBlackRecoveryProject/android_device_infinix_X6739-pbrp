@@ -1,4 +1,4 @@
-# Android device tree for Infinix Infinix X6739 (Infinix-X6739)
+# Android recovery device tree for INFINIX GT 10 PRO 5G  (Infinix-X6739)
 
 ```
 #
