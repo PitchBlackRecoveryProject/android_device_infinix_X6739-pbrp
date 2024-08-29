@@ -15,14 +15,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Inherit some common TWRP stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common PBRP stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from Infinix-X6739 device
 $(call inherit-product, device/infinix/X6739/device.mk)
 
 PRODUCT_DEVICE := X6739
-PRODUCT_NAME := twrp_X6739
+PRODUCT_NAME := pb_X6739
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := INFINIX GT 10 PRO 5G
 PRODUCT_MANUFACTURER := infinix

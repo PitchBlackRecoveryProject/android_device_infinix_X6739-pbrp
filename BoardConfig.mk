@@ -173,5 +173,6 @@ TARGET_USES_LOGD := true
 TW_STATUS_ICONS_ALIGN := center
 TW_CUSTOM_CLOCK_POS := "300"
 
-# Version
-TW_DEVICE_VERSION := X6739-Eko_Rudianto
+#PBRP_FLAGS
+PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 1
